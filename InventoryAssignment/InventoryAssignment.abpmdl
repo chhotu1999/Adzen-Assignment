@@ -1,0 +1,101 @@
+{
+  "template": "app",
+  "imports": {
+    "Volo.Abp.LeptonXLiteTheme": {
+      "version": "3.3.3",
+      "isInstalled": true
+    },
+    "Volo.Abp.Account": {
+      "version": "8.3.3",
+      "isInstalled": true
+    },
+    "Volo.Abp.OpenIddict": {
+      "version": "8.3.3",
+      "isInstalled": true
+    },
+    "Volo.Abp.Identity": {
+      "version": "8.3.3",
+      "isInstalled": true
+    },
+    "Volo.Abp.TenantManagement": {
+      "version": "8.3.3",
+      "isInstalled": true
+    },
+    "Volo.Abp.SettingManagement": {
+      "version": "8.3.3",
+      "isInstalled": true
+    },
+    "Volo.Abp.PermissionManagement": {
+      "version": "8.3.3",
+      "isInstalled": true
+    },
+    "Volo.Abp.FeatureManagement": {
+      "version": "8.3.3",
+      "isInstalled": true
+    }
+  },
+  "folders": {
+    "items": {
+      "src": {},
+      "test": {}
+    }
+  },
+  "packages": {
+    "InventoryAssignment.Application": {
+      "path": "src/InventoryAssignment.Application/InventoryAssignment.Application.abppkg",
+      "folder": "src"
+    },
+    "InventoryAssignment.Application.Tests": {
+      "path": "test/InventoryAssignment.Application.Tests/InventoryAssignment.Application.Tests.abppkg",
+      "folder": "test"
+    },
+    "InventoryAssignment.Domain.Shared": {
+      "path": "src/InventoryAssignment.Domain.Shared/InventoryAssignment.Domain.Shared.abppkg",
+      "folder": "src"
+    },
+    "InventoryAssignment.Application.Contracts": {
+      "path": "src/InventoryAssignment.Application.Contracts/InventoryAssignment.Application.Contracts.abppkg",
+      "folder": "src"
+    },
+    "InventoryAssignment.HttpApi": {
+      "path": "src/InventoryAssignment.HttpApi/InventoryAssignment.HttpApi.abppkg",
+      "folder": "src"
+    },
+    "InventoryAssignment.HttpApi.Client": {
+      "path": "src/InventoryAssignment.HttpApi.Client/InventoryAssignment.HttpApi.Client.abppkg",
+      "folder": "src"
+    },
+    "InventoryAssignment.EntityFrameworkCore.Tests": {
+      "path": "test/InventoryAssignment.EntityFrameworkCore.Tests/InventoryAssignment.EntityFrameworkCore.Tests.abppkg",
+      "folder": "test"
+    },
+    "InventoryAssignment.EntityFrameworkCore": {
+      "path": "src/InventoryAssignment.EntityFrameworkCore/InventoryAssignment.EntityFrameworkCore.abppkg",
+      "folder": "src"
+    },
+    "InventoryAssignment.TestBase": {
+      "path": "test/InventoryAssignment.TestBase/InventoryAssignment.TestBase.abppkg",
+      "folder": "test"
+    },
+    "InventoryAssignment.Domain.Tests": {
+      "path": "test/InventoryAssignment.Domain.Tests/InventoryAssignment.Domain.Tests.abppkg",
+      "folder": "test"
+    },
+    "InventoryAssignment.HttpApi.Client.ConsoleTestApp": {
+      "path": "test/InventoryAssignment.HttpApi.Client.ConsoleTestApp/InventoryAssignment.HttpApi.Client.ConsoleTestApp.abppkg",
+      "folder": "test"
+    },
+    "InventoryAssignment.DbMigrator": {
+      "path": "src/InventoryAssignment.DbMigrator/InventoryAssignment.DbMigrator.abppkg",
+      "folder": "src"
+    },
+    "InventoryAssignment.HttpApi.Host": {
+      "path": "src/InventoryAssignment.HttpApi.Host/InventoryAssignment.HttpApi.Host.abppkg",
+      "folder": "src"
+    },
+    "InventoryAssignment.Domain": {
+      "path": "src/InventoryAssignment.Domain/InventoryAssignment.Domain.abppkg",
+      "folder": "src"
+    }
+  }
+}

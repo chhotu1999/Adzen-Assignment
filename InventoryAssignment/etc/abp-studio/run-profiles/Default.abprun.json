@@ -1,0 +1,23 @@
+﻿{
+  "applications": {
+    "InventoryAssignment.HttpApi.Host": {
+      "type": "dotnet-project",
+      "launchUrl": "https://localhost:44367",
+      "path": "../../../src/InventoryAssignment.HttpApi.Host/InventoryAssignment.HttpApi.Host.csproj",
+      "kubernetesService": ".*-httpapihost$",
+      "execution": {
+        "order": 4
+      }
+    },
+    "InventoryAssignment.Angular": {
+      "type": "cli",
+      "workingDirectory": "../../../angular",
+      "startCommand": "./start.ps1",
+      "launchUrl": "http://localhost:4200",
+      "kubernetesService": ".*-angular$",
+      "execution": {
+        "order": 2
+      }    
+    }
+  }
+}
